@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+--white-qr-card-main: hsl(0, 0%, 100%);
+--slate-color-body-300: hsl(212, 45%, 89%);
+--slate-fon-paragraph-500: hsl(216, 15%, 48%);
+--slate-color-title-900: hsl(218, 44%, 22%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--slate-color-body-300)
+}
+.qr-card__paragraph{
+    font-size: 15px;
+    font-weight: 400;
+}
+.qr-card__title{
+    font-weight: 700;
+}
