@@ -1,24 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-:root{
---white-qr-card-main: hsl(0, 0%, 100%);
---slate-color-body-300: hsl(212, 45%, 89%);
---slate-fon-paragraph-500: hsl(216, 15%, 48%);
---slate-color-title-900: hsl(218, 44%, 22%);
+:root {
+    --white-qr-card-article: hsl(0, 0%, 100%);
+    --slate-color-body-300: hsl(212, 45%, 89%);
+    --slate-fon-paragraph-500: hsl(216, 15%, 48%);
+    --slate-color-title-900: hsl(218, 44%, 22%);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--slate-color-body-300)
 }
-.qr-card__paragraph{
+
+.page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-card {
+    background-color: var(--white-qr-card-article);
+    padding: 30px;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.qr-card__imge {
+    width: 288px;
+    border-radius: 10px;
+}
+
+.qr-card__title {
+    color: var(--slate-color-title-900);
+    font-weight: 700;
+}
+
+.qr-card__paragraph {
+    color: var(--slate-fon-paragraph-500);
     font-size: 15px;
     font-weight: 400;
 }
-.qr-card__title{
-    font-weight: 700;
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
