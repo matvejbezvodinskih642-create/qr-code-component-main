@@ -73,5 +73,5 @@ In future projects, I plan to focus on:
 
 ## Author
 
-- Frontend Mentor - [@matvejbezvodinskih642-create](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
-- GitHub - [Matvey Bezvodinskikh](https://github.com/matvejbezvodinskih642-create)
+- Frontend Mentor - [Matvey](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
+- GitHub -[jovermer-frontend] (https://github.com/jovermer-frontend)
