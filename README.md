@@ -1,1 +1,1 @@
-# Создание проекта по имени: QR Code в папке с основными элементами
+Project creation named "QR Code" in the folder with main elements
