@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [General thoughts](#general-thoughts)
   - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -14,12 +15,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 ## Overview
+![QR-code__Frontend Mentor](image.png)
 
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size.
+
+### General thoughts
+
+This was my very first challenge on Frontend Mentor, and it turned out to be an amazing starting point! While the layout looks simple at first glance, making it truly robust and adaptable taught me a lot about responsive design. It really helped me bridge the gap between just knowing CSS properties and actually applying them to build clean, real-world components.
 
 ### Links
 
@@ -40,7 +46,7 @@ This project was built using a clean stack without any third-party libraries:
 
 ### What I learned
 
-During my work on this first challenge, I reinforced my fundamental skills in element positioning and typography.
+During my work on this challenge, I reinforced my fundamental skills in element positioning, typography, and clean code layout.
 
 I learned how to use CSS variables for quick and efficient color palette management:
 
@@ -60,7 +66,7 @@ I also mastered centering a component perfectly on the screen using Flexbox:
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100vh; 
+    min-height: 100vh; 
 } 
 ```
 
@@ -68,10 +74,10 @@ I also mastered centering a component perfectly on the screen using Flexbox:
 
 In future projects, I plan to focus on:
 - Learning the two-dimensional CSS Grid layout.
-- Mastering the BEM methodology for a cleaner class structure.
+- Deepening my knowledge of the BEM methodology for an even cleaner class structure.
 - Adding interactivity using JavaScript.
 
 ## Author
 
 - Frontend Mentor - [Matvey](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
-- GitHub -[jovermer-frontend] (https://github.com/jovermer-frontend)
+- GitHub - [jovermer-frontend](https://github.com/jovermer-frontend/qr-code-component-main)
